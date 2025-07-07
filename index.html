@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Carl Millard</h1>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link" tabindex="0">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#portfolio" class="header__nav-link" tabindex="0">Portolio</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item--contact">
+                        <a role="button" href="#contact" class="header__nav-link" tabindex="0">Contact</a>
+                    </li>
+                    <li class="header__nav-item  header__nav-item--github">
+                        <a href="https://github.com/bolognakenshin" target="_blank" class="header__nav-link" tabindex="0">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2 class="intro__title">Hi my name is Carl Millard 💻</h2>
+            <h2 class="intro__subtitle">I'm a Front End Developer, I love to code and create engaging, user-friendly UIs. Check out some of my work below!</h2>
+        </div>
+    </section>
+
+    <section id="portfolio" class="gallery">
+        <div class="container">
+            <div class="gallery__grid">
+                <div class="gallery__item">
+                    <label for="modal-1">
+                        <span class="gallery__image-container" style="background-image: url('./images/apple-mbp.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-1" class="gallery__modal-checkbox">
+                    <div class="gallery__modal">
+                        <label for="modal-1" class="gallery__modal-close">&times;</label>
+                        <img src="./images/apple-mbp.png" alt="Apple MacBook Pro Website" class="gallery__modal-image">
+                    </div>
+                    <div class="gallery__item-info">
+                        <span class="gallery__item-title">Macbook Pro</span>
+                        <a href="https://macbook2024-project.vercel.app/" target="_blank" class="gallery__item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> 
+                    </div>
+                </div>
+                <!--  -->
+                <div class="gallery__item">
+                    <label for="modal-2">
+                        <span class="gallery__image-container" style="background-image: url('./images/codeswitcher.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-2" class="gallery__modal-checkbox">
+                    <div class="gallery__modal">
+                        <label for="modal-2" class="gallery__modal-close">&times;</label>
+                        <img src="./images/codeswitcher.png" alt="Code Switcher Website" class="gallery__modal-image">
+                    </div>
+                    <div class="gallery__item-info">
+                        <span class="gallery__item-title">Code Switcher</span>
+                        <a href="#" target="_blank" class="gallery__item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> 
+                    </div>
+                </div>
+                <!--  -->
+                <div class="gallery__item">
+                    <label for="modal-3">
+                        <span class="gallery__image-container" style="background-image: url('./images/calculator.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-3" class="gallery__modal-checkbox">
+                    <div class="gallery__modal">
+                        <label for="modal-3" class="gallery__modal-close">&times;</label>
+                        <img src="./images/calculator.png" alt="Calculator Website" class="gallery__modal-image">
+                    </div>
+                    <div class="gallery__item-info">
+                        <span class="gallery__item-title">Calculator</span>
+                        <a href="#" target="_blank" class="gallery__item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> 
+                    </div>
+                </div>
+                <!--  -->
+                <div class="gallery__item">
+                    <label for="modal-4">
+                        <span class="gallery__image-container" style="background-image: url('./images/DoomScroll.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-4" class="gallery__modal-checkbox">
+                    <div class="gallery__modal">
+                        <label for="modal-4" class="gallery__modal-close">&times;</label>
+                        <img src="./images/DoomScroll.png" alt="Doom Scroll Website" class="gallery__modal-image">
+                    </div>
+                    <div class="gallery__item-info">
+                        <span class="gallery__item-title">Doom Scroll</span>
+                        <a href="#" target="_blank" class="gallery__item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> 
+                    </div>
+                </div>
+                <!--  -->
+                <div class="gallery__item">
+                    <label for="modal-5">
+                        <span class="gallery__image-container" style="background-image: url('./images/glass-gradient-card.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-5" class="gallery__modal-checkbox">
+                    <div class="gallery__modal">
+                        <label for="modal-5" class="gallery__modal-close">&times;</label>
+                        <img src="./images/glass-gradient-card.png" alt="Glass Gradient Card Website" class="gallery__modal-image">
+                    </div>
+                    <div class="gallery__item-info">
+                        <span class="gallery__item-title">Glass Gradient Card</span>
+                        <a href="#" target="_blank" class="gallery__item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> 
+                    </div>
+                </div>
+                <!--  -->
+                <div class="gallery__item">
+                    <label for="modal-6">
+                        <span class="gallery__image-container" style="background-image: url('./images/computer-diorama.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-6" class="gallery__modal-checkbox">
+                    <div class="gallery__modal">
+                        <label for="modal-6" class="gallery__modal-close">&times;</label>
+                        <img src="./images/computer-diorama.png" alt="Computer Diorama Website" class="gallery__modal-image">
+                    </div>
+                    <div class="gallery__item-info">
+                        <span class="gallery__item-title">Computer Diorama</span>
+                        <a href="#" target="_blank" class="gallery__item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> 
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="contact__title">Contact Me</h2>
+            <p class="contact_-description">Feel free to reach out to me via email cmillardv77@gmail.com</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2025 Carl Millard. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
