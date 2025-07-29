@@ -156,8 +156,14 @@
 
     <footer class="footer">
         <div class="container">
-            <p class="footer__text">&copy; 2025 Carl Millard. All rights reserved.</p>
+            <p class="footer__text">&copy;</p>
         </div>
     </footer>
+
+    <script>
+            const currentYear = new Date().getFullYear();
+            document.getElementsByClassName("footer__text")[0].innerHTML = "&copy; " + currentYear + " Carl Millard. All rights reserved.";
+    </script>
+
 </body>
 </html>
